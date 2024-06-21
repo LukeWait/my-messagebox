@@ -68,7 +68,6 @@ MyMessageBox.Show(this, "This is a custom message box.", "Custom MessageBox", Me
 The `MyMessageBox` class is designed to be customizable. Here are some areas of the code that you can alter to fit your preferences:
 
 ### Panel Colors
-You can change the colors of the panels. Look for the following lines and adjust the colors as desired:
 ```csharp
 // Lines 45-48
 Panel bodyPanel = new Panel();
@@ -83,7 +82,6 @@ footerPanel.BackColor = Color.CornflowerBlue; // Change this color
 ```
 
 ### Icon Sizes and Positions
-You can change the size and position of the icon displayed in the message box:
 ```csharp
 // Lines 71-72
 iconBox.Location = new Point(20, 20); // Change the position
@@ -91,14 +89,12 @@ iconBox.Size = new Size(32, 32); // Change the size
 ```
 
 ### Font and Text Styles
-You can customize the font and styles of the text displayed in the message box:
 ```csharp
 // Line 85
 messageLabel.Font = new Font("Microsoft Sans Serif", 8); // Change the font and size
 ```
 
 ### Button Styles
-You can customize the button styles. Look for the following block of code and adjust the properties as needed:
 ```csharp
 // Lines 159-163
 button.BackColor = SystemColors.Control;
