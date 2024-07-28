@@ -6,7 +6,7 @@ Purpose:   1. Mimics the functionality of the MessageBox class including the for
               appears over the parent application instead of the middle of the screen
               - the built-in MessageBox has this function however it doesn't work as
                 Microsoft overrides it and always puts the box in the middle of the screen
-Version: 1.0
+Version: 1.0.0
 Author: ┬  ┬ ┬┬┌─┌─┐┬ ┬┌─┐╦╔╦╗
         │  │ │├┴┐├┤ │││├─┤║ ║
         ┴─┘└─┘┴ ┴└─┘└┴┘┴ ┴╩ ╩
